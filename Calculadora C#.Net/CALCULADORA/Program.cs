@@ -60,33 +60,61 @@ using System;
 
     private static void Soma()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Digite o primeiro número: ");    
+        Console.WriteLine("Digite o segundo número: ");
+        int numero1 = int.Parse(Console.ReadLine()!);
+        int numero2 = int.Parse(Console.ReadLine()!);
+        int resultado = numero1 + numero2;
+        Console.WriteLine($"O resultado da soma é: {resultado}");
     }
 
     private static void Subtracao()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Digite o primeiro número: ");
+        Console.WriteLine("Digite o segundo número: ");
+        int numero1 = int.Parse(Console.ReadLine()!);
+        int numero2 = int.Parse(Console.ReadLine()!);
+        int resultado = numero1 - numero2;
+        Console.WriteLine($"O resultado da subtração é: {resultado}");
+
     }
 
     private static void Divisao()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Digite o primeiro número: ");
+        Console.WriteLine("Digite o segundo número: ");
+        int numero1 = int.Parse(Console.ReadLine()!);
+        int numero2 = int.Parse(Console.ReadLine()!);
+        int resultado = numero1 / numero2;
+        Console.WriteLine($"O resultado da divisão é: {resultado}");
     }
 
     private static void Multiplicacao()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Digite o primeiro número: ");
+        Console.WriteLine("Digite o segundo número: ");
+        int numero1 = int.Parse(Console.ReadLine()!);
+        int numero2 = int.Parse(Console.ReadLine()!);
+        int resultado = numero1 * numero2;
+        Console.WriteLine($"O resultado da multiplicação é: {resultado}");
     }
 
     private static void Potencia()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Digite o primeiro número: ");
+        Console.WriteLine("Digite o segundo número: ");
+        int numero1 = int.Parse(Console.ReadLine()!);
+        int numero2 = int.Parse(Console.ReadLine()!);
+        int resultado = (int)Math.Pow(numero1, numero2);
+        Console.WriteLine($"O resultado da potência é: {resultado}");
     }
 
     private static void RaizQuadrada()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Digite o número: ");
+        int numero1 = int.Parse(Console.ReadLine()!);
+        double resultado = Math.Sqrt(numero1);
+        Console.WriteLine($"O resultado da raiz quadrada é: {resultado}");
     }
 }
 
-// Console.WriteLine("Digite o primeiro número: ");
