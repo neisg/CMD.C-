@@ -12,3 +12,4 @@ C:\Users\claudineisantos\Desktop\C# projetos\Calculadora C#.Net\CALCULADORA\obj\
 C:\Users\claudineisantos\Desktop\C# projetos\Calculadora C#.Net\CALCULADORA\obj\Debug\net9.0\CALCULADORA.pdb
 C:\Users\claudineisantos\Desktop\C# projetos\Calculadora C#.Net\CALCULADORA\obj\Debug\net9.0\CALCULADORA.genruntimeconfig.cache
 C:\Users\claudineisantos\Desktop\C# projetos\Calculadora C#.Net\CALCULADORA\obj\Debug\net9.0\ref\CALCULADORA.dll
+C:\Users\claudineisantos\Desktop\C# projetos\Calculadora C#.Net\CALCULADORA\obj\Debug\net9.0\CALCULADORA.sourcelink.json
