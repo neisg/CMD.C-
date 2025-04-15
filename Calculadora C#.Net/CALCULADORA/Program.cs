@@ -9,7 +9,7 @@ using System;
         static void Main(string[] args)
         {
             bool escolheuSair = false;
-            while (escolheuSair)
+            while (!escolheuSair) // Enqunato o usuario nao (!) Escolher Sair Exiba o Menu
         
 
 
@@ -18,53 +18,75 @@ using System;
             Console.WriteLine("1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n5 - Potência\n6 - Raiz Quadrada\n7 - Sair");
             
             
-            
+        
 
-
-
-            String? entrada = Console.ReadLine();
-
-            if (int.TryParse(entrada, out int valor))
-            {
-                Menu opcao = (Menu)valor;
-                switch (opcao)
-                
-                {
-                    //seus cases aqui
-                }
-            }
-            else
-            {
-                Console.WriteLine("Opção invalida. Tente novamente.");
-            }
-
-
-
-
-
-
-
-
-            /* Menu opcao = (Menu)int.TryParse(Console.ReadLine());
+             Menu opcao = (Menu)int.Parse(Console.ReadLine()!);
 
             switch (opcao)
             {
+                case Menu.Soma:
+                    Soma();
+                    break;
+                case Menu.Subtracao:
+                    Subtracao();    
+                    break;
+                case Menu.Divisao:
+                    Divisao();
+                    break;
+                case Menu.Multiplicacao:
+                    Multiplicacao();
+                    break;    
+                case Menu.Potencia:
+                    Potencia();
+                    break;
+                case Menu.RaizQuadrada: 
+                    RaizQuadrada();
+                    break;                                            
                 case Menu.Sair:
                     escolheuSair = true;
-                break;
-
-            } */
-
-    
-           /* Console.Clear();*/
-
-
-
+                    break;
+                default:    
+                    Console.WriteLine("Opção inválida, tente novamente.");
+                    break;
+            }   
             
 
+            } 
 
+    
+        Console.Clear();
 
         }
+
+    private static void Soma()
+    {
+        throw new NotImplementedException();
     }
 
+    private static void Subtracao()
+    {
+        throw new NotImplementedException();
     }
+
+    private static void Divisao()
+    {
+        throw new NotImplementedException();
+    }
+
+    private static void Multiplicacao()
+    {
+        throw new NotImplementedException();
+    }
+
+    private static void Potencia()
+    {
+        throw new NotImplementedException();
+    }
+
+    private static void RaizQuadrada()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+// Console.WriteLine("Digite o primeiro número: ");
